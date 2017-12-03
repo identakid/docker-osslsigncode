@@ -12,4 +12,4 @@ RUN ./configure
 RUN make
 RUN make install
 
-ENTRYPOINT ["/usr/local/bin/osslsigncode"]
+CMD ["bash"]
